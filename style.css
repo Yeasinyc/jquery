@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#accordion{
+    height: 100vh;
+    background-color: rgb(216, 210, 210);
+}
+
+
+#accordion .container{
+    width: 500px;       
+    margin: 0 auto;
+}
+
+#accordion .container .qsn{
+    background-color: rgb(83, 68, 71);
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+#accordion .container .qsn.active ~ .ans{
+    height: auto;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#accordion .container .ans{
+    background-color: burlywood;
+    margin:5px 0 ;
+    height: 0;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+
